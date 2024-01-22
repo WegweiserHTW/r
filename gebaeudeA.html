@@ -44,6 +44,7 @@
             color: orange
         }
         
+        
         .headline {
             position: absolute;
             left: 50px;
@@ -55,11 +56,11 @@
         }
         
         
-        .description-section {
+        .descrition-section {
             height: 300px;
             padding: 30px 100px;
             display: flex;
-            
+            column-gap: 50px;
         }
         
         .button {
@@ -69,67 +70,31 @@
             box-shadow: 5px 5px 5px rgba(0,0,0, 0.8);
         }
         
-        
-        .half-width {
-            width:50%;
-        }
-        
-        .image {
-            height: 600px;
-            padding: 60px 80px;
+        .image-raum {
+              height: 300px;
+            padding: 30px 100px;
             display: flex;
-            column-gap: 10px;     
+            column-gap: 50px;
+            margin-left: 200px;
         }
         
-        .menu-gebaeude {
-            text-align: right;
-            margin-right: 20px;
-            margin-bottom: 5px; 
-            display: block;
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            margin-top: 25px;
-            text-align: center;
-            background-color: darkorange;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            text-decoration: none;
-            
-            
-        }
-        
-        .menu-gebaeude:hover {
-           text-decoration: underline;
-            color: black
+        .image-wc {
+               height: 300px;
+            padding: 30px 100px;
+            display: flex;
+            column-gap: 50px;
+            margin-left: 700px;
+            margin-top: -390px;
         }
         
         .yellow {
             color: darkorange;
         }
-       
-        .search-container {
-            position: fixed;
-            top: 0;
-            left: 0;
-            padding: 10px;
-            background-color: #f0f0f0;
-            display: flex;
+        
+        .text {
+            text-align: center;
+            font-size: 20px;
         }
-        
-        .search-container input {
-            padding: 5px;
-            font-size: 14px;
-        } 
-        
-        .search-container button {
-            padding: 5px 10px;
-            font-size: 14px;
-            margin-left: 5px;
-        }
-        
-     
     
     </style>
     
@@ -141,22 +106,12 @@
     
     <img class="header-image" src="htw.jpg">  
     
-    
     <div class= "container">
-        
-          <div class="search-container">
-    <input type="text" placeholder="Suche..." class="search-input">
-    <button type="submit" class="search-button">Suchen</button>
-   </div>
-    
-
         <div>
         <a class="menu-link" href="index.html">Startseite</a>
         <a class="menu-link" href="oeffnungszeiten.html">Öffnungszeiten</a>
         <a class="menu-link button" href="anfahrt.html">Anfahrt</a>
         </div>
-       
-      
         
     </div>
     
@@ -165,71 +120,30 @@
         
         <span class="yellow">Campus Rotenbühl</span></h1>
     
-     <br/>  
-
     <div class="description-section">
-       
-    
-            <img class="image" src="campus2.jpg">
         
-            <br/>  
-            <br/> 
-    <br/>  
-     
-    
-    <br/> 
-
-            <div class="half-width"> 
-                <br/>  
             <br/>
-                <br/>  
             <br/>
-                <br/>  
-            <br/>
-                <br/>  
-            <br/>
-                    <br/>  
-            <br/>
-        <a class="menu-gebaeude button" href="gebaeudeA.html">Gebäude A</a>
-        <a class="menu-gebaeude button" href="gebaeudeB.html">Gebäude B</a>
-        <a class="menu-gebaeude button" href="gebaeudeC.html">Gebäude C</a>
-         <a class="menu-gebaeude button" href="gebaeudeD.html">Gebäude D</a>
-         <a class="menu-gebaeude button" href="gebaeudeE.html">Gebäude E</a>
-        </div>
+        <div class="text">
             
+            In <strong>Gebäude A </strong>befinden sich Vorlesungsräume, Büros der Professoren und die Praxisreferate sowie die Bibliothek.
+         </div>
+            <br/>
+            <br/>
+            <br/>
+        <div class="x">
+              <img class="image-raum" src="raum.jpg"> 
+          <br/>
+            <br/>
+              <img class="image-wc" src="wc.jpg"> 
+        </div>
         
-  </div>
-    <br/>  
-            <br/> 
-    <br/>  
-     
+        </div>
     
-    <br/>  
-            <br/> 
-    <br/>  
-            <br/> 
-             <br/> 
-    <br/>  
-     
-             <br/> 
-    <br/>  
-     
     
-    <br/>  
-            <br/> 
-    <br/>  
-            <br/>          <br/> 
-    <br/>  
-     
+
     
-    <br/>  
-            <br/> 
-    <br/>  
-            <br/> 
-    <br/>  
-            <br/> 
-    <br/>  
-            <br/> 
+    
      <div class="legal-content">
         <span class="legal-text">Fakultät für Wirtschaftswissenschaften Campus Rotenbühl - Waldhausweg 14 - 66123 Saarbrücken</span> | <a href="#">Impressum</a> | <a href="#">Datenschutz</a>
     </div>
